@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ajetunmobi Qudus",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "env": "^0.0.2",
     "express": "^5.2.1"
   },
   "devDependencies": {
